@@ -1,0 +1,79 @@
+body{
+   margin: auto;
+   max-width: 900px;
+   background-color: white;
+   border: 1px black solid;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+h4{
+    font-family: Verdana;
+    font-size: medium;
+    color: #042F58;
+}
+header li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-decoration:none ;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px black solid;
+    
+
+
+}
+.nom_poste{
+    text-align: center;
+
+}
+header img{
+    width: 25%;
+    border-radius: 50%;
+    margin: 6px;
+}
+h2{
+    font-family: Verdana;
+    color: #042F58;
+
+}
+h3{
+    font-family: Verdana;
+    color: #014891;
+
+}
+h5,.explan ul li,.forcom ul li,header ul li,.lan p {
+    font-family: Verdana;
+    font-size: 15px;
+    color: #014891;
+}
+.explan,.forcom{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%; 
+    
+}
+.lan div div label,.lan div div progress{
+    display: block;
+}
+.lan div div progress{
+    display: block;
+}
+.label,.progress{
+display: inline-block;
+margin-left: 10px;
+}
+
+section img {
+    display: inline-block;
+    width: 10%;
+    margin-right: 50px ;
+}
